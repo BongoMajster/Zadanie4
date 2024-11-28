@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewLicznik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Licznik: 0"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/buttonZwieksz"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:text="Zwiększ"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/editTextUzytkownik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz coś"
+        android:layout_below="@id/textViewLicznik"
+        android:layout_marginBottom="20dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOpcja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcja"
+        android:layout_below="@id/editTextUzytkownik"
+        android:layout_marginBottom="20dp" />
+
+    <Switch
+        android:id="@+id/switchTryb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tryb ciemny"
+        android:layout_below="@id/checkBoxOpcja"
+        android:layout_marginBottom="20dp" />
+</RelativeLayout>
